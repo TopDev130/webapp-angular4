@@ -1,0 +1,53 @@
+.search-box {
+  i {
+    position: absolute;
+    top: 9px;
+    right: 25px;
+    color: #aaa;
+    z-index: 100;
+    font-size: 16px;
+  }
+}
+label.form-control-label {
+  font-size: 17px;
+}
+.shop-type {
+  .checkbox label {
+    display: flex;
+    align-items: center;
+
+    i {
+      color: #e08d39;
+      margin-right: 10px;
+    }
+
+    input {
+      margin-right: 10px;
+    }
+  }
+}
+.links {
+  a {
+    text-decoration: none;
+    position: relative;
+    &:first-child {
+      padding-right: 40px;
+      i {
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        z-index: 1;
+      }
+    }
+  }
+}
+.new-shop {
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 100vh;
+}

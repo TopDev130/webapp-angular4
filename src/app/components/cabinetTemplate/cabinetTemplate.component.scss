@@ -1,0 +1,106 @@
+a.home {
+  font-size: 22px;
+  text-decoration: none;
+  color: #e08d39;
+}
+.flex-vertical-center {
+  align-items: center;
+}
+.card.active {
+  border: 1px solid orange;
+}
+.customize-panel {
+  margin-top: 5px;
+
+  .card {
+    height: -webkit-calc(100vh - 60px);
+    height: calc(100vh - 60px);
+
+    .bottom-bar {
+      height: 55px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: #e08d39;
+
+      .select-another {
+        height: 100%;
+        display: -webkit-inline-flex;
+        display: inline-flex;
+        -webkit-align-items: center;
+        align-items: center;
+        font-size: 13px;
+        color: white;
+        text-decoration: none;
+      }
+
+      .check-template {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        -webkit-align-items: center;
+        align-items: center;
+        height: 45px;
+        -webkit-justify-content: center;
+        justify-content: center;
+        font-size: 13px;
+        border-left: 1px solid;
+        padding-left: 24px;
+        margin-top: 5px;
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.cabinet-modal {
+  h4.modal-title {
+    margin-bottom: 5px;
+  }
+  button.close {
+    position: absolute;
+    top: 6px;
+    right: 10px;
+  }
+
+  table.cell-chart {
+    margin: 0 auto;
+    border-spacing: 15px;
+  }
+
+  .footer {
+    .cancel {
+      display: -webkit-flex;
+      display: flex;
+      -webkit-align-items: center;
+      align-items: center;
+      color: #e08d39;
+      font-size: 13px;
+      text-decoration: none;
+
+      i {
+        font-size: 18px;
+      }
+    }
+
+    .update {
+      display: -webkit-flex;
+      display: flex;
+      -webkit-align-items: center;
+      align-items: center;
+      font-size: 13px;
+      color: white;
+      text-decoration: none;
+      padding: 5px 10px;
+      background-color: #e08d39;
+
+      i {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
